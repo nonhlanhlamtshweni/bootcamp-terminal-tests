@@ -1,0 +1,27 @@
+{
+  "name": "bootcamp-terminal-tests",
+  "version": "1.0.0",
+  "description": "",
+  "main": "countAllFromPaarl.js",
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "mocha": "^9.1.1"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nonhlanhlamtshweni/bootcamp-terminal-tests.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nonhlanhlamtshweni/bootcamp-terminal-tests/issues"
+  },
+  "homepage": "https://github.com/nonhlanhlamtshweni/bootcamp-terminal-tests#readme"
+}
