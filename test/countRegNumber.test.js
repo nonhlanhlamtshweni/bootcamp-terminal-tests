@@ -1,15 +1,16 @@
+var countRegNumber = require('../countRegNumber');
 let assert = require("assert");
-let countRegNumber = require("../countRegNumber");
 
-describe('The CountRegNumber function' , function(){
-    it('should return "RegCount" split times length' , function(){
-        
-        var regCount = countRegNumber('CA 182736,CY 523519,CJ 812328')
-        assert.equal(regCount, 3);
+describe('Counting registration numbers test' , function(){
 
-        var regCount = countRegNumber('CA 182736')
-        assert.equal(regCount, 1);
-        
+    it('returns "3" for three sets of registration numbers' , function(){
+           var regCount = countRegNumber('CA 182736,CY 523519,CJ 812328')
+           assert.equal(regCount, 3);
+        });
+    
+    it('returns "1" for only one set of registration numbers' , function(){
+          var regCount = countRegNumber('CA 182736')
+          assert.equal(regCount, 1);
+        });
+    
     });
-
-});

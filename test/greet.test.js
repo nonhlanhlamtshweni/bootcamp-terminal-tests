@@ -8,6 +8,6 @@ describe('The greet function', function(){
     });
     it('should greet Sino appropriately', function(){
         // this test will fail - can you fix it?
-        assert.equal('HELLO, Sino', greet('Sino'));
+        assert.equal('HELLO, SINO', greet('Sino'));
     });
 });
